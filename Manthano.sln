@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7702345-08A0-4525-9927-070E8A0D6FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{28B5AD91-D8A2-4D1D-82A1-772F1481C51E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3390D60-1957-4FB3-B485-97267BE59D76}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Api", "src\Manthano.Api\Manthano.Api.csproj", "{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Api.Tests", "tests\Manthano.Api.Tests\Manthano.Api.Tests.csproj", "{79BA6A16-AD2E-49CB-9642-301ED187D330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|x64.Build.0 = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|x64.ActiveCfg = Release|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|x64.Build.0 = Release|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A}.Release|x86.Build.0 = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|x64.Build.0 = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Debug|x86.Build.0 = Debug|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|x64.ActiveCfg = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|x64.Build.0 = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|x86.ActiveCfg = Release|Any CPU
+		{79BA6A16-AD2E-49CB-9642-301ED187D330}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A} = {B7702345-08A0-4525-9927-070E8A0D6FC7}
+		{79BA6A16-AD2E-49CB-9642-301ED187D330} = {28B5AD91-D8A2-4D1D-82A1-772F1481C51E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62133337-25B3-42E0-AF3E-1BDD63179FD5}
+	EndGlobalSection
+EndGlobal
