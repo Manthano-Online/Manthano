@@ -1,5 +1,6 @@
 using Manthano.Api.Extensions;
 using Manthano.Api.Security;
+using Manthano.Common.Extensions;
 using Manthano.Data.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,7 @@ namespace Manthano.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddManthanoServices();
             services.AddEntityFramework(Configuration);
             services.AddSingleton<IWebTokenBuilder, WebTokenBuilder>();
             services.AddJsonWebTokenConfiguration(Configuration);
