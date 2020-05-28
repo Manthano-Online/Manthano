@@ -1,5 +1,5 @@
-﻿using Manthano.Data.EntityFramework.TypeMappings;
-using Manthano.Data.Models;
+﻿using Manthano.Data.EntityFramework.Models;
+using Manthano.Data.EntityFramework.TypeMappings;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,3 +1,5 @@
+using Manthano.Api.Extensions;
+using Manthano.Api.Security;
 using Manthano.Data.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,14 +18,16 @@ namespace Manthano.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
             services.AddEntityFramework(Configuration);
+            services.AddSingleton<IWebTokenBuilder, WebTokenBuilder>();
+            services.AddJsonWebTokenConfiguration(Configuration);
+            services.AddControllers();
+            services.AddAuthentication();
+            services.AddAuthorization();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -35,7 +39,15 @@ namespace Manthano.Api
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseCors(x =>
+            {
+                x.AllowAnyOrigin();
+                x.AllowAnyMethod();
+                x.AllowAnyHeader();
+            });
 
             app.UseEndpoints(endpoints =>
             {

@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manthano.Api.Tests", "tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Data", "src\Manthano.Data\Manthano.Data.csproj", "{EC3D3435-7B14-4150-9D41-009AB123F4B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Common", "src\Manthano.Common\Manthano.Common.csproj", "{87052FAE-CBD2-4325-BA1E-371011FE2FA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,18 @@ Global
 		{EC3D3435-7B14-4150-9D41-009AB123F4B1}.Release|x64.Build.0 = Release|Any CPU
 		{EC3D3435-7B14-4150-9D41-009AB123F4B1}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC3D3435-7B14-4150-9D41-009AB123F4B1}.Release|x86.Build.0 = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|x64.Build.0 = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +89,7 @@ Global
 		{3AD0012E-5823-429F-80DC-23D4CA5B4D8A} = {B7702345-08A0-4525-9927-070E8A0D6FC7}
 		{79BA6A16-AD2E-49CB-9642-301ED187D330} = {28B5AD91-D8A2-4D1D-82A1-772F1481C51E}
 		{EC3D3435-7B14-4150-9D41-009AB123F4B1} = {B7702345-08A0-4525-9927-070E8A0D6FC7}
+		{87052FAE-CBD2-4325-BA1E-371011FE2FA0} = {B7702345-08A0-4525-9927-070E8A0D6FC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62133337-25B3-42E0-AF3E-1BDD63179FD5}

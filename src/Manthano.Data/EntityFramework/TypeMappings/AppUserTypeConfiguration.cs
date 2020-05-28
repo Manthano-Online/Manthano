@@ -1,4 +1,4 @@
-﻿using Manthano.Data.Models;
+﻿using Manthano.Data.EntityFramework.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

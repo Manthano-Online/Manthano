@@ -1,5 +1,5 @@
 ﻿using Manthano.Data.EntityFramework;
-using Manthano.Data.Models;
+using Manthano.Data.EntityFramework.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

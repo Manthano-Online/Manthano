@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Manthano.Data.Models
+namespace Manthano.Data.EntityFramework.Models
 {
     public class AppUser : IdentityUser<int>
     {
