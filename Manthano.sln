@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66696E3C-C439-4A2B-8F54-4A11DB53A972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5B9C647-EB20-4AFF-A5C6-9D46D4F5B604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Server", "src\Manthano\Server\Manthano.Server.csproj", "{19C6B954-BF08-4BC6-A072-A52B0213A97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Client", "src\Manthano\Client\Manthano.Client.csproj", "{D097B904-9D4B-45B7-AA74-8E7990893001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Shared", "src\Manthano\Shared\Manthano.Shared.csproj", "{926C8E18-85A4-4231-9832-A03FC896C668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C6B954-BF08-4BC6-A072-A52B0213A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C6B954-BF08-4BC6-A072-A52B0213A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C6B954-BF08-4BC6-A072-A52B0213A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C6B954-BF08-4BC6-A072-A52B0213A97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D097B904-9D4B-45B7-AA74-8E7990893001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D097B904-9D4B-45B7-AA74-8E7990893001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D097B904-9D4B-45B7-AA74-8E7990893001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D097B904-9D4B-45B7-AA74-8E7990893001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926C8E18-85A4-4231-9832-A03FC896C668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926C8E18-85A4-4231-9832-A03FC896C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926C8E18-85A4-4231-9832-A03FC896C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926C8E18-85A4-4231-9832-A03FC896C668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19C6B954-BF08-4BC6-A072-A52B0213A97C} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+		{D097B904-9D4B-45B7-AA74-8E7990893001} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+		{926C8E18-85A4-4231-9832-A03FC896C668} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F813F8D-DD5C-4F5D-9181-D3FE44BD0251}
+	EndGlobalSection
+EndGlobal
