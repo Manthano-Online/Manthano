@@ -7,11 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66696E3C-C43
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5B9C647-EB20-4AFF-A5C6-9D46D4F5B604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Server", "src\Manthano\Server\Manthano.Server.csproj", "{19C6B954-BF08-4BC6-A072-A52B0213A97C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manthano.Server", "src\Manthano\Server\Manthano.Server.csproj", "{19C6B954-BF08-4BC6-A072-A52B0213A97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Client", "src\Manthano\Client\Manthano.Client.csproj", "{D097B904-9D4B-45B7-AA74-8E7990893001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manthano.Client", "src\Manthano\Client\Manthano.Client.csproj", "{D097B904-9D4B-45B7-AA74-8E7990893001}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Shared", "src\Manthano\Shared\Manthano.Shared.csproj", "{926C8E18-85A4-4231-9832-A03FC896C668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manthano.Common", "src\Manthano\Common\Manthano.Common.csproj", "{926C8E18-85A4-4231-9832-A03FC896C668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Domain", "src\Manthano\Domain\Manthano.Domain.csproj", "{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Handlers", "src\Manthano\Handlers\Manthano.Handlers.csproj", "{4825562D-C726-48EA-9D43-6BD1D24F6843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manthano.Persistence", "src\Manthano\Persistence\Manthano.Persistence.csproj", "{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,18 @@ Global
 		{926C8E18-85A4-4231-9832-A03FC896C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{926C8E18-85A4-4231-9832-A03FC896C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{926C8E18-85A4-4231-9832-A03FC896C668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4825562D-C726-48EA-9D43-6BD1D24F6843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4825562D-C726-48EA-9D43-6BD1D24F6843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4825562D-C726-48EA-9D43-6BD1D24F6843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4825562D-C726-48EA-9D43-6BD1D24F6843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +57,9 @@ Global
 		{19C6B954-BF08-4BC6-A072-A52B0213A97C} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
 		{D097B904-9D4B-45B7-AA74-8E7990893001} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
 		{926C8E18-85A4-4231-9832-A03FC896C668} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+		{11BDC86F-0CE9-48B7-86C9-2F8B2E6F18B0} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+		{4825562D-C726-48EA-9D43-6BD1D24F6843} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
+		{6BFD7D73-AA1B-41DA-8225-3C4F7A90A0D7} = {66696E3C-C439-4A2B-8F54-4A11DB53A972}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F813F8D-DD5C-4F5D-9181-D3FE44BD0251}

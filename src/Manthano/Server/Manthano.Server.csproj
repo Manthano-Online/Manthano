@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\Manthano.Client.csproj" />
-    <ProjectReference Include="..\Shared\Manthano.Shared.csproj" />
+    <ProjectReference Include="..\Shared\Manthano.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
